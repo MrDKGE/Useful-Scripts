@@ -1,6 +1,12 @@
 #!/bin/bash
-
+# Purpose:      Update Portainer
+# Date:         24.11.2021 (DD.MM.YYYY)
+# Version:      1.0.0
+# Tested on:    Debian 11 (Bullseye)
+#==============================================================================
+echo -e "\033[0;32mUpdating docker portainer...\033[0m"
 docker pull portainer/portainer-ce
 docker stop portainer
 docker rm portainer
 docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce
+echo -e "\033[0;32mPortainer updated.\033[0m"
