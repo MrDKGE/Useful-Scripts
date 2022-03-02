@@ -1,6 +1,5 @@
 #!/bin/bash
-# Purpose:      Remove old portainer enterprise edition container including data and create new one
-# Date:         02.01.2022 (DD.MM.YYYY)
+# Purpose:      Clean install portainer
 # Version:      1.0.0
 # Tested on:    Debian 11 (Bullseye)
 #==============================================================================

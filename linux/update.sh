@@ -1,6 +1,5 @@
 #!/bin/bash
 # Purpose:      Updating software with custom messages.
-# Date:         24.11.2021 (DD.MM.YYYY)
 # Version:      1.0.1
 # Tested on:    Debian 11 (Bullseye)
 #==============================================================================

@@ -1,6 +1,5 @@
 #!/bin/bash
-# Purpose:      Update portainer enterprise edition
-# Date:         02.01.2022 (DD.MM.YYYY)
+# Purpose:      Update portainer
 # Version:      1.0.0
 # Tested on:    Debian 11 (Bullseye)
 #==============================================================================
