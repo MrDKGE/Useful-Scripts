@@ -13,7 +13,7 @@ if ! [ -x "$(command -v curl)" ]; then
     sudo apt install curl -y
 fi
 # Install zsh
-apt install -y zsh
+sudo apt install -y zsh
 # Set default shell to zsh
 chsh -s $(which zsh)
 # download the kali configuration and replace the default one
