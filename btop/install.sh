@@ -7,7 +7,7 @@ echo -e "\033[0;32mInstalling btop++\033[0m"
 # cd to home directory
 cd ~
 # Download btop++
-wget https://github.com/aristocratos/btop/releases/download/v1.2.4/btop-aarch64-linux-musl.tbz
+wget https://github.com/aristocratos/btop/releases/download/v1.2.13/btop-aarch64-linux-musl.tbz
 # Create directory for btop++
 mkdir btop
 # Extract btop++ to home directory in btop directory
