@@ -23,6 +23,6 @@ rsync -avz --password-file=/home/pi/scripts/linux/rsync_pass /home/pi/backup/doc
 # echo -e "\033[0;32mRemoving backup from local server...\033[0m"
 # rm /home/pi/backup/docker-$timestamp.tar.gz
 
-# remove backups older than 30 days
-echo -e "\033[0;32mRemoving backups older than 30 days...\033[0m"
-find /home/pi/backup/*.tar.gz -mtime +30 -exec rm {} \;
+# remove backups older than 7 days
+echo -e "\033[0;32mRemoving backups older than 7 days...\033[0m"
+find /home/pi/backup/*.tar.gz -mtime +7 -exec rm {} \;
