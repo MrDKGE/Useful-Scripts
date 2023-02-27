@@ -12,5 +12,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 # Add the current user to the docker group:
 sudo usermod -aG docker $USER
+# Install docker-compose:
+sudo apt-get install docker-compose-plugin
 echo -e "\033[0;32mDone!\033[0m"
 echo -e "\033[0;32mLogout and login again to apply changes\033[0m"
